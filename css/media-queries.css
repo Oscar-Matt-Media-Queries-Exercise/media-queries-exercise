@@ -1,29 +1,25 @@
 main {
-    display: flex;
+    /*display: flex;*/
     font-family: sans-serif;
-    flex-direction: column;
+    /*flex-direction: column;*/
     max-width: 700px;
     padding: .7em;
 }
-
-.alert-info{
-    display: flex;
+.alert-info {
+    /*display: flex;*/
     background-color: #c7ffff;
     text-decoration: none;
-    justify-content: center;
+    /*justify-content: center;*/
     padding: 1em 0;
     border: solid lightgrey;
-
+    text-align: center;
 }
-
 .alert-info a{
-    display: flex;
+    /*display: flex;*/
     text-decoration: none;
     color: black;
     font-size: 18px;
-
 }
-
 h1 {
     text-align: center;
     font-size: 60px;
@@ -31,27 +27,19 @@ h1 {
     margin-bottom: 15px;
     width: 100%;
 }
-
-
 .nav-links {
     display: flex;
     flex-direction: column;
     width: 100%;
-
-
 }
-
 li {
     list-style-type: none;
     margin: .5em 0;
-
 }
-
 ul {
     padding-left: 0;
 }
-
-li a{
+li a {
     display: inline-block;
     background: lightgray;
     padding: 1em 0;
@@ -60,13 +48,10 @@ li a{
     font-size: 20px;
     font-weight: bold;
     font-family: "Comic Sans MS";
-
 }
-
 img {
 height: 400px;
 }
-
 .header-img {
     width: 100%;
     display: flex;
@@ -74,27 +59,77 @@ height: 400px;
     margin: 0;
     padding: 0;
 }
-
 .sub-section {
     font-style: italic;
     font-size: 15px;
-
 }
-
 .sub-section p {
     font-style: italic;
-
 }
-
 footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
 }
-
 footer img {
     width: 30px;
     height: 30px;
 }
 
+
+@media screen and (min-width: 768px) {
+
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 1400px;
+    }
+
+    .alert-info {
+        display: none!important;
+    }
+
+    .nav-bar {
+        display: flex;
+
+        width: 100%;
+
+    }
+
+    h1 {
+
+        position: relative;
+        /*width: 300px;*/
+        font-size: 40px;
+        text-align: left;
+        align-self: center;
+
+
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    li a {
+        display: inline-block;
+        background: white;
+        padding: 1em 0;
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: "Comic Sans MS";
+    }
+
+
+    li {
+        padding: .5em;
+    }
+
+
+}
