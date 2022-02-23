@@ -1,21 +1,17 @@
 main {
-    /*display: flex;*/
     font-family: sans-serif;
-    /*flex-direction: column;*/
     max-width: 700px;
     padding: .7em;
 }
 .alert-info {
-    /*display: flex;*/
     background-color: #c7ffff;
     text-decoration: none;
-    /*justify-content: center;*/
     padding: 1em 0;
     border: solid lightgrey;
     text-align: center;
 }
 .alert-info a{
-    /*display: flex;*/
+
     text-decoration: none;
     color: black;
     font-size: 18px;
@@ -74,9 +70,10 @@ footer {
     justify-content: space-between;
     align-items: flex-end;
 }
-footer img {
-    width: 30px;
+footer i {
+    width: 45px;
     height: 30px;
+    font-size: 40px;
 }
 span img {
     display: none;
@@ -90,65 +87,51 @@ span img {
         flex-wrap: wrap;
         max-width: 1400px;
     }
-
     .alert-info {
         display: none!important;
     }
-
     .nav-bar {
         display: flex;
 
         width: 100%;
-
     }
-
     h1 {
-
         position: relative;
-        /*width: 300px;*/
-        font-size: 40px;
+        font-size: 50px;
         text-align: left;
         align-self: center;
-
-
     }
-
     .nav-links {
         display: flex;
         flex-direction: row;
-
     }
-
     li a {
         display: inline-block;
         background: white;
         padding: 1em 0;
         width: 100%;
         text-align: center;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: bold;
         font-family: "Comic Sans MS";
     }
-
-
     li {
         padding: .5em;
     }
-
     .sections {
         display: flex;
         width: 100%;
         height: 350px;
-
     }
-
     .main {
         width: 60%;
         padding-right: 3em;
     }
-
     .sub-section{
         width: 40%;
+        margin-top: 0;
+        font-style: italic;
+        font-size: 15px;
     }
 
     footer{
@@ -157,17 +140,13 @@ span img {
         width: 100%;
         margin-bottom: 1em;
     }
-
     span {
-        /*display: flex;*/
         margin-left: auto;
     }
-
     span img {
         display: flex;
         height: 90px;
         width: 245px;
-        /*align-items: flex-end;*/
     }
 
 }
