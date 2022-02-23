@@ -33,7 +33,6 @@ h1 {
 }
 
 
-
 .nav-links {
     display: flex;
     flex-direction: column;
@@ -62,7 +61,6 @@ li a{
     font-weight: bold;
     font-family: "Comic Sans MS";
 
-
 }
 
 img {
@@ -86,5 +84,17 @@ height: 400px;
 .sub-section p {
     font-style: italic;
 
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
 }
 
