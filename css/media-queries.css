@@ -60,6 +60,7 @@ height: 400px;
     padding: 0;
 }
 .sub-section {
+    margin-top: 3em;
     font-style: italic;
     font-size: 15px;
 }
@@ -67,6 +68,7 @@ height: 400px;
     font-style: italic;
 }
 footer {
+    margin-top: 5em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
