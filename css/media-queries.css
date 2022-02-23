@@ -140,6 +140,9 @@ span img {
         width: 100%;
         margin-bottom: 1em;
     }
+    footer p {
+        font-size: 14px;
+    }
     span {
         margin-left: auto;
     }
