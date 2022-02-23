@@ -8,11 +8,10 @@ main {
 
 .alert-info{
     display: flex;
-    background-color: #9dd8ef;
+    background-color: #c7ffff;
     text-decoration: none;
     justify-content: center;
     padding: 1em 0;
-    font-weight: bold;
     border: solid lightgrey;
 
 }
@@ -21,6 +20,7 @@ main {
     display: flex;
     text-decoration: none;
     color: black;
+    font-size: 18px;
 
 }
 
@@ -60,6 +60,7 @@ li a{
     text-align: center;
     font-size: 20px;
     font-weight: bold;
+    font-family: "Comic Sans MS";
 
 
 }
@@ -75,3 +76,15 @@ height: 400px;
     margin: 0;
     padding: 0;
 }
+
+.sub-section {
+    font-style: italic;
+    font-size: 15px;
+
+}
+
+.sub-section p {
+    font-style: italic;
+
+}
+
